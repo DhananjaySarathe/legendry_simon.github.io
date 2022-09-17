@@ -85,6 +85,13 @@ function nextsequence()
 
     $("#"+randomChosenColor).fadeIn(100).fadeOut(100).fadeIn(100);
 
+    
+        $("#"+randomChosenColor).append("<div class='circle'></div>");
+    setTimeout(() => {
+        $(".circle").remove();
+    }, 250);
+    
+    
     let audio=new Audio("sounds/"+randomChosenColor+".mp3");
     audio.play();
 
