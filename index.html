@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon </title>
+  <title>Simon (Level-1)</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
@@ -102,43 +102,44 @@
 
   <div class="row">
     <div class="col">
-      <h1>1) Remember the sequence of buttons colours pressed. </h1>
+      <h1>Rule 1: Carefully watch the box which blinks and remember the sequence in which it was blinking </h1>
     </div>
   </div>
  
   <div class="row">
     <div class="col">
-      <h1>2) Press the buttons in (same sequence or reversal sequence) as indicated. </h1>
+      <h1>Rule 2: Press the boxes in order according to the instruction indicated above(whether it is "same sequence" or "reverse sequence").</h1>
     </div>
   </div>
  
-  <div class="row">
-    <div class="col">
-      <h1>3) Each time you complete your sequence correctly one more button is automatically pressed and you have to include that colour button in your sequence </h1>
+  <div class="row" >
+    <div class="col" id="rule3">
+      <h1>Rule 3: Each time you properly press the boxes in correct order, one more button will automatically blinks and again you have to repeat the same steps as indicated in above rules.</h1>
     </div>
   </div>
 
   
   <div class="row">
     <div class="col" id="ex">
-      <h1> <span class="spn">Example:</span>  when you click start .Red button is pressed (automatically) . so you pressed red now blue button is pressed (automatically). Now we have two cases <br>
-      1) Same Sequence: red then blue. <br>
-      2) Reverse Sequence : blue then red. <br>
-      and it will go so on...
+      <h1> <span class="spn">For example:</span> When you will select the level, the game will start. Let's suppose red button will blink in first time. So you have to click on red button. Now blue button blinks in second time. Then we will have either of the two conditions : <br>
+        1. Same sequence-> If same sequence then first click on red button and then blue one. <br>
+        2. Reverse sequence-> If reverse sequence then first click on blue button and then red one, i.e. in reverse order.
+        <br>
+        and the game will continue like that.
       </h1>
     </div>
   </div>
 
   
-  <div class="row">
-    <div class="col">
-      <h1> <span class="spn">Remember:</span>As you increase the level.Difficulty will be increased the sequence may be alternative or random . And in legendry mode the boxes can shuffle too. </h1>
+  <div class="row" >
+    <div class="col" id="rem">
+      <h1> <span class="spn">Remember:</span>As you'll increase the level, difficulty level will also increase so the sequence may be alternate i.e. one time same sequence next time reverse or vice verse and the so on. <br>Also in legendry mode the boxes can also shuffle within themselves so also keep that in mind.</h1>
     </div>
   </div>
   
   <div class="row" >
     <div class="col" id="yt">
-      <h1>Still doubt in rules : watch this <br> 
+      <h1>Still doubt in rules : watch this <br>  <br>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f6YgMvKSyME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        </h1>
     </div>
