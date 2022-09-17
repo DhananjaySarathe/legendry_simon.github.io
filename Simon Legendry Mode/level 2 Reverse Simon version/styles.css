@@ -80,3 +80,16 @@ body {
   color: #0bc67f !important;
   font-size: 2.8vw !important;
 }
+
+
+.circle{
+  position: relative;
+  left: 60px;
+  top: 60px;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  color: white;
+  border-radius: 100%;
+  
+}
