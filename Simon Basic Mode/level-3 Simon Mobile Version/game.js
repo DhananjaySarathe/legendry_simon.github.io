@@ -127,6 +127,13 @@ function nextsequence()
         $(".sequence").text("Reverse Sequence");
     }
 
+    
+        $("#"+randomChosenColor).append("<div class='circle'></div>");
+    setTimeout(() => {
+        $(".circle").remove();
+    }, 250);
+    
+    
     let audio=new Audio("sounds/"+randomChosenColor+".mp3");
     audio.play();
 }
